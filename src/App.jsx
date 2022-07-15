@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import IniciarSesion from './layout/IniciarSesion';
 import Layout from './layout/Layout';
@@ -9,8 +8,6 @@ import NuevoCliente from './pages/NuevoCliente';
 import VerCliente from './pages/VerCliente';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <BrowserRouter>
       <Routes>

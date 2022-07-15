@@ -10,7 +10,8 @@ const Inicio = () => {
 
   const obtenerClientesApi = async () => {
     try {
-      const url = 'http://localhost:4000/clientes';
+      const url =
+        'https://my-json-server.typicode.com/jarratia/API_CRM/clientes';
       const response = await fetch(url);
       const result = await response.json();
       console.log(result);
